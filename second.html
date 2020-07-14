@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>print the contents of the current window </title>
+	<style >
+		#clr_button{
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body>
+	<p>click below button you will get current window print</p>
+	<button id="clr_button" onclick="current_window()">button</button>
+	<script>
+		function current_window()
+		{
+			window.print();
+		}
+	</script>
+</body>
+</html>

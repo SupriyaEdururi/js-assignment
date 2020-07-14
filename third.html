@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script>
+		var d=new Date();
+		var month=d.getMonth();
+		month=month<10?'0'+month:month;
+		var date=d.getDate();
+		date=date<10?'0'+date:date;
+		var year=d.getFullYear();
+		var date1=month + "-" + date + "-" + year;
+		var date2=date+ "-" + month + "-" + year;
+		document.write(date1 + "," + date2);
+	</script>
+</body>
+</html>
