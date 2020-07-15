@@ -1,0 +1,31 @@
+								DATATYPE'S
+								==========
+In javascript we have two different types of datatype's,they are
+1.primitive datatype's
+2.non-primitive datatype's
+
+NOTE:
+----
+	Javascript is a dynamic programing language.you don't need to declare datatype of the variable.
+because it is dynamically  used js engine.	In js we use var to specify the datatype.It can holds any datatype value's.
+
+
+1.PRIMITIVE DATATYPE'S:
+---------------------
+->String==>var name="priya";
+
+->Number==>var ph_no=123;
+
+->Boolean==>var grad=false;
+
+->Undefined==>undefined;
+
+->Null==>var dr_no=Null;
+
+
+
+2.NON-PRIMITIVE DATATYPE'S:
+-------------------------
+->Object==>var obj= {"name": "priya","gender": "female", "age": "20"};
+
+->Array==>var arr=[1,2,3,4];

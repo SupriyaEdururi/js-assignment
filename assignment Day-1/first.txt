@@ -1,0 +1,14 @@
+										Console Method's
+->console.clear()==>it clear's the console screen.
+										----------------
+->console.log()==>it is used to give the output to the console.
+
+->console.error()==>it is used to give error to the console.By default it highlated red color.
+
+->console.warn()==>it is used to give warning to the console.By default it highlated yellow color.
+
+->console.table()==>if your input in object type or array type in that time we use table() function then it represents input data in the form of table.
+
+->console.time() and console.timeEnd()==>By using this function's ypu know the how much time console spend the inside the block.
+
+->console.group() and console.groupEnd()==>it is used to group the contents.

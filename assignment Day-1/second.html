@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- var ----var keyword represents the declared variables used any where in that program -->
+<!-- let-----let keyword represents the declared variables used in that scope only or function only-->
+<!-- const----const keyword is used to can't be change the data in that variable -->
+<body>
+    <script>
+        console.time();
+        var name="supriya";
+        {
+            let roll_no=123;
+            document.write(name);
+            document.write("<br/>");
+            document.write(roll_no);
+        }
+        // document.write(roll_no);#it shows an error because let keyword declation variables used in that scope only
+        document.write("<br/>");
+        const mobile_no=123456;
+        document.write(mobile_no);
+        //var mobile_no=9876;----here we try to change the mobile number that's why it gives error because it is const variable 
+    </script>
+</body>
+</html>
