@@ -2,15 +2,12 @@ let seconds = 0;
 let minutes = 0;
 let hours = 0;
 
-//Define vars to hold "display" value
 let displaySeconds = 0;
 let displayMinutes = 0;
 let displayHours = 0;
 
-//Define var to hold setInterval() function
 let interval = null;
 
-//Define var to hold stopwatch status
 let status = "stopped";
 
 //Stopwatch function (logic to determine when to increment next value, etc.)
