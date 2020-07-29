@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 15px;
+    padding:15px 30px;
+    width:350px;
+    margin:auto;
+}
+#watch{
+    font-size:50px;
+    padding:5px;
+    border:3px solid black;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom:15px;
+    width:250px
+}
+button{
+    width:70px;
+    padding:5px 10px;
+     margin: 10px 10px; 
+    color:white;
+    border-radius: 5px;
+    background-color:turquoise;
+}
